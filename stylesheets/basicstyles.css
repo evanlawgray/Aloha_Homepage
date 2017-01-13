@@ -350,8 +350,10 @@ article p {
 }
 
 .sign-up-bkgd p {
-	position: relative;
-	top: -10px;
+	max-width: 424px;
+    min-width: 250px;
+	margin: 0 auto;
+	font-size: 1.1rem;
 }
 
 .social-bar {
