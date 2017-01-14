@@ -267,6 +267,15 @@ article p {
 	margin-top: 0%;
 }
 
+.product-list-item {
+	width: 100%;
+	margin-bottom: 10%;
+}
+
+.product-list-item img {
+	max-width: 320px;
+}
+
 .product-list {
 	display: flex;
 	flex-flow: column nowrap;
@@ -279,7 +288,7 @@ article p {
 
 .product-list p {
 	margin: 0%;
-	font-size: 0.7rem;
+	font-size: 0.8rem;
 	color: #969696;
 	text-transform: uppercase;
 	font-family: 'ralewaymedium';
@@ -287,33 +296,15 @@ article p {
 
 .product-name {
 	margin: 1%;
-	font-size: 1.6rem;
+	font-size: 1.7rem;
 	font-family: 'playfairdisplay-regular-webfont';
 	/*color: #969696;
 	text-transform: uppercase;
 	font-family: 'ralewaymedium';*/
 }
 
-/*
-.product-list h3 {
-	margin: 1%;
-	font-size: 1.55rem;
-	font-family: 'playfairdisplay-regular-webfont';
-	text-transform: ;
-}
-*/
-
-.prices {
-	font-size: 0.9rem;
-}
-
-.product-list-item {
-	width: 100%;
-	margin-bottom: 10%;
-}
-
-.product-list-item img {
-	max-width: 320px;
+p.prices {
+	font-size: 1rem;
 }
 
 .sign-up-bkgd {
