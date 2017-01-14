@@ -140,7 +140,7 @@ header {
 }
 
 article {
-
+	padding: 0% 3%;
 	border-bottom: 1px solid #d7d7d7;
 }
 
@@ -253,8 +253,7 @@ footer p {
 }
 
 .container {
-	height: auto;
-	width: 100%;
+	max-width: 100%;
 	text-align: center;
 }
 
