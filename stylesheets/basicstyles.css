@@ -346,14 +346,31 @@ article p {
 }
 
 .sign-up-bkgd h2 {
-	
+	margin: 0 auto;
 }
 
 .sign-up-bkgd p {
 	max-width: 424px;
     min-width: 250px;
-	margin: 0 auto;
+	margin: 5% 0% 5%;
 	font-size: 1.1rem;
+}
+
+.sign-up-form {
+	height: auto;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.email-input {
+	height: 35px;
+	width: 100%;
+	padding: 0% 6%;
+	border: none;
+	border-radius: 50px;
+	color: #969696;
+	font-size: 1rem;
+	font-family: 'ralewaylight';
 }
 
 .social-bar {
