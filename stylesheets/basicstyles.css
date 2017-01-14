@@ -131,12 +131,12 @@ body {
 
 header {
 	max-width: 100%;
-	height: 7%;
-	padding: 0% 3% 0% 3%;
-	display: flex;
-	flex-flow: row nowrap;
-	justify-content: space-between;
-	align-items: center;
+    height: 10%;
+    padding: 0% 3% 0% 3%;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
 article {
@@ -150,10 +150,6 @@ h1,h2,h3,h4 {
 	display: block;
 	font-size: 2.2rem;
 	font-family:'playfair_displayitalic', Arial, Serif;
-}
-
-p {
-	margin-top: 10px;
 }
 
 a {
@@ -189,13 +185,14 @@ footer p {
 }
 
 .cart {
-	width: 50px;
-	min-width: 50px;
+	width: 12%;
+    min-width: 50px;
 }
 
 .logo {
-	width: 110px;
-	min-width: 110px;
+	width: 30%;
+    min-width: 110px;
+    flex-basis: auto;
 }
 
 .social-bar {
