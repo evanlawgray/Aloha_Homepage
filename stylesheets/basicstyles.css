@@ -333,12 +333,12 @@ article p {
 }
 
 .sign-up-bkgd {
-	height: 40%;
+	height: 50%;
 	padding: 1%;
 	background: linear-gradient(
 			rgba(0, 0, 0, 0.25) 0%,
 			rgba(0, 0, 0, 0.25) 100%),
-			url("../assets/images/wave-bkgd.jpg") no-repeat center -540px;
+			url("../assets/images/wave-bkgd.jpg") no-repeat center bottom;
 	display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
@@ -354,13 +354,15 @@ article p {
     min-width: 250px;
 	margin: 5% auto;
 	font-size: 1.1rem;
+	text-align: center;
 }
 
 .sign-up-form {
 	position: relative;
+	right: 5%;
 	height: auto;
 	width: 80%;
-	margin: 0 auto;
+	margin: 0 10% 5% 10%;
 }
 
 .email-input {
