@@ -167,23 +167,6 @@ img {
 	display: inline;
 }
 
-footer {
-	margin-top: 1%;
-	padding-top: 10%;
-	padding-bottom: 10%;
-	background: #242424;
-	display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-}
-
-footer p {
-	color: white;
-	margin: 5% auto;
-}
-
 .cart {
 	width: 12%;
     min-width: 50px;
@@ -364,6 +347,20 @@ input[type="submit"] {
     left: 77%;
 }
 
+footer {
+	margin-top: 0.5%;
+	background: #242424;
+	display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+}
+
+footer p {
+	color: white;
+	margin: 5% auto;
+}
 .social-bar {
 	display: flex;
 	flex-flow: row nowrap;
