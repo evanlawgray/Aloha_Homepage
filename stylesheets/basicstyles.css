@@ -138,15 +138,7 @@ header {
 	justify-content: space-between;
 	align-items: center;
 }
-/*
-header img:nth-child(1) {
-	width: 20%;
-}
 
-header img:nth-child(2) {
-	width: 10%;
-}
-*/
 article {
 
 	border-bottom: 1px solid #d7d7d7;
@@ -244,7 +236,6 @@ section.hero-image-banner {
 .hero-image-banner {
 	text-align: center;
 	color: white;
-	margin-top: 10px;
 	margin-bottom: 10px;
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.25) 0%,
