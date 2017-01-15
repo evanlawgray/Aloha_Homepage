@@ -294,6 +294,7 @@ p.prices {
 	display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
+    align-items: center;
     color: white;
 }
 
@@ -444,7 +445,7 @@ li.fa p {
 
 	h1, h2, h3 {
 		margin-top: 9%;
-		font-size: 2.8rem;
+		font-size: 2.9rem;
 	}
 	
 	header {
@@ -511,5 +512,33 @@ li.fa p {
 	.product-list h2 {
 		margin-top: 8%;
 		margin-bottom: 4%;
+	}
+
+	.sign-up-bkgd {
+		height: 54.4%;
+	}
+
+	.sign-up-bkgd h2 {
+		top: 12.7%;
+
+	}
+
+	.sign-up-bkgd p {
+		max-width: 540px;
+		top: 2.6%;
+		font-size: 1.35rem;
+	}
+
+	.sign-up-form {
+		width: 60%;
+	}
+
+	.email-input {
+		height: 52px;
+	}
+
+	input [type="submit"] {
+		font-size: 1.2rem;
+		left: 76.7%;
 	}
 }
