@@ -306,7 +306,7 @@ p.prices {
 .sign-up-bkgd h2 {
 	margin: 0 auto;
 	position: relative;
-	top: 10%;
+	top: 11%;
 }
 
 .sign-up-bkgd p {
@@ -314,7 +314,7 @@ p.prices {
     min-width: 250px;
     margin: 5% auto;
     position: relative;
-    top: 1%;
+    top: 2.3%;
     font-size: 1.13rem;
     text-align: center;
 }
