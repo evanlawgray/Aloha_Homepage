@@ -214,9 +214,9 @@ img {
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.25) 0%,
 		rgba(0, 0, 0, 0.25) 100%),
-		url("../assets/images/banner-girl.png") no-repeat center 200%,
+		url("../assets/images/banner-girl.png") no-repeat center bottom -27px,
 		url("../assets/images/flower-bkgd.jpg") no-repeat center;
-	background-size: cover, 33%, cover;
+	background-size: cover, 155px, cover;
 }
 
 .hero-image-banner p {
@@ -224,12 +224,12 @@ img {
 	font-family: 'ralewaymedium';
 	text-transform: uppercase;
 	position: relative;
-	top: 40%;
+	top: 35.5%;
 }
 
 .hero-image-banner h2 {
 	position: relative;
-	top: 27%;
+	top: 23.5%;
 }
 
 .container {
