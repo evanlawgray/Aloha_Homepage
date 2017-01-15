@@ -153,6 +153,10 @@ h1,h2,h3,h4 {
 }
 
 a {
+	color: white;
+}
+
+a:hover {
 	color: #e2574c;
 }
 
@@ -348,27 +352,53 @@ input[type="submit"] {
 }
 
 footer {
-	margin-top: 0.5%;
-	background: #242424;
-	display: flex;
+	overflow: hidden;
+    padding: 10%;
+    height: 29%;
+    margin-top: 1.8%;
+    background: #242424;
+    display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
     align-content: center;
 }
 
-footer p {
-	color: white;
-	margin: 5% auto;
+.footer-column {
+	font-family: "playfair_displayregular", Arial, Serif;
+	line-height: 1.6rem;
 }
+
+.copyright {
+	max-width: 210px;
+	margin: 0 auto 1rem;
+	text-align: center;
+	color: white;
+}
+
+.contact {
+	max-width: 250px;
+	text-align: center;
+	margin: 0 auto 1rem;
+	color: white;
+}
+
+.address {
+	max-width: 180px;
+	text-align: center;
+	margin: 0 auto;
+	color: #969696;
+}
+
 .social-bar {
 	display: flex;
 	flex-flow: row nowrap;
 	justify-content: space-between;
+	margin-top: 2rem;
 }
 
 li.fa p {
-	visibility: hidden;
+	display: none;
 }
 
 /*
