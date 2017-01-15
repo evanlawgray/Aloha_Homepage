@@ -367,7 +367,7 @@ footer {
 
 .copyright {
 	max-width: 210px;
-	margin: 0 auto 1rem;
+	margin: 0 0 1rem;
 	text-align: center;
 	color: white;
 }
@@ -415,6 +415,7 @@ li.fa p {
 .float-right {
 	float: right;
 }
+*/
 
 .clearfix::after {
 	content: "";
@@ -423,7 +424,6 @@ li.fa p {
 	visibility: hidden;
 	clear: both;
 }
-*/
 
 .brand-color {
 	color: #e2574c;
@@ -540,5 +540,40 @@ li.fa p {
 	input [type="submit"] {
 		font-size: 1.2rem;
 		left: 76.7%;
+	}
+
+	footer {
+		height: 24.5%;
+		display: block;
+		padding: 10% 2% 10% 2%;
+		font-size: 1.15rem;
+	}
+
+	.footer-column {
+		float: left;
+	}
+
+	.copyright {
+		margin: 0 0 1rem;
+	}
+
+	.address {
+		margin: 0 0 1rem;
+	}
+
+	.contact {
+		max-width: 300px;
+	}
+
+	.copyright p {
+		text-align: left;
+	}
+
+	.contact p {
+		text-align: left;
+	}
+
+	.address p {
+		text-align: left;
 	}
 }
