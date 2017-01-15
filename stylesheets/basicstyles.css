@@ -245,6 +245,8 @@ img {
 }
 
 .about p {
+	width: 100%;
+	margin: 0 auto;
 	font-size: 1.15rem;
 	margin-bottom: 12%;
 	margin-top: 0%;
@@ -624,5 +626,9 @@ li.fa a {
 
 	.hero-image-banner p {
 		font-size: 1.7rem;
+	}
+
+	.about p {
+		max-width: 680px;
 	}
 }
