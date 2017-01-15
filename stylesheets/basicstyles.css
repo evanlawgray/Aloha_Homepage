@@ -144,7 +144,7 @@ article {
 	border-bottom: 1px solid #d7d7d7;
 }
 
-h1,h2,h3,h4 {
+h1,h2,h3 {
 	margin-top: 10%;
 	margin-bottom: 5%;
 	display: block;
@@ -437,4 +437,27 @@ li.fa p {
 
 .darkborder {
 	border-color: #242424;
+}
+
+@media all and (min-width: 600px) {
+	
+	header {
+		height: 13%;
+	}
+
+	.hero-image-banner {
+		height: 57.5%;
+		background-size: cover, 158px, cover;
+	}
+
+	.hero-image-banner p {
+		font-size: 1.5rem;
+		top: 36%;
+	}
+
+	.hero-image-banner h2 {
+		font-size: 3.5rem;
+		top: 18.5%;
+	}
+
 }
