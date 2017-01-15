@@ -276,7 +276,7 @@ img {
 }
 
 .product-name {
-	margin: 1%;
+	margin: 0 auto;
 	font-size: 1.7rem;
 	font-family: 'playfairdisplay-regular-webfont';
 }
@@ -472,5 +472,44 @@ li.fa p {
 
 	.about p {
 		font-size: 1.4rem;
+	}
+
+	.product-list {
+		flex-flow: row wrap;
+		justify-content: center;
+		margin-bottom: 14%;
+	}
+
+	.product-list-item {
+		width: 43%;
+		margin-bottom: 5%;
+	}
+
+	.product-list p {
+		font-size: 0.92rem;
+	}
+
+	.product-name {
+		font-size: 2rem;
+	    max-width: 245px;
+	}
+
+	.product-list li:nth-child(4) h3 {
+	    line-height: 1.8rem;
+	    margin: 7% auto;
+	}
+
+	.product-list li:nth-child(5) h3 {
+	    line-height: 1.9rem;
+	    margin: 7% auto;
+	}
+
+	p.prices {
+		font-size: 1.23rem;
+	}
+
+	.product-list h2 {
+		margin-top: 8%;
+		margin-bottom: 4%;
 	}
 }
