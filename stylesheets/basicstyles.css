@@ -459,7 +459,7 @@ li.fa a {
 	}
 
 	.hero-image-banner {
-		height: 57.5%;
+		height: 58%;
 		background-size: cover, 158px, cover;
 	}
 
@@ -469,8 +469,8 @@ li.fa a {
 	}
 
 	.hero-image-banner h2 {
-		font-size: 3.5rem;
-		top: 18.5%;
+		font-size: 3.6rem;
+		top: 22%;
 	}
 
 	.about {
