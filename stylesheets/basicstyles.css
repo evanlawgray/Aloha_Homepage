@@ -612,6 +612,17 @@ li.fa a {
 
 	.hero-image-banner {
 		height: 70%;
-		background-size: cover, 280px, cover;
+		background-size: cover, 280px, 69%;
+		background-position: center, 50% 13px;
+		background-repeat: no-repeat, no-repeat, repeat-x;
+	}
+
+	.hero-image-banner h2 {
+		font-size: 5rem;
+		top: 8%;
+	}
+
+	.hero-image-banner p {
+		font-size: 1.7rem;
 	}
 }
