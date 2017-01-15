@@ -139,10 +139,9 @@ header {
     align-items: center;
 }
 
-article {
-	height: 30%;
-	padding: 0% 3%;
-	border-bottom: 1px solid #d7d7d7;
+.container {
+	max-width: 100%;
+	text-align: center;
 }
 
 h1,h2,h3 {
@@ -233,17 +232,18 @@ img {
 	top: 23.5%;
 }
 
-.container {
-	max-width: 100%;
-	text-align: center;
+.about {
+	height: 30%;
+	padding: 0% 3%;
+	border-bottom: 1px solid #d7d7d7;
 }
 
-article h2 {
+.about h2 {
 	margin-bottom: 1%;
 }
 
-article p {
-	font-size: 1.12rem;
+.about p {
+	font-size: 1.15rem;
 	margin-bottom: 12%;
 	margin-top: 0%;
 }
@@ -441,6 +441,11 @@ li.fa p {
 }
 
 @media all and (min-width: 600px) {
+
+	h1, h2, h3 {
+		margin-top: 9%;
+		font-size: 2.8rem;
+	}
 	
 	header {
 		height: 13%;
@@ -459,5 +464,13 @@ li.fa p {
 	.hero-image-banner h2 {
 		font-size: 3.5rem;
 		top: 18.5%;
+	}
+
+	.about {
+		height: 36%;
+	}
+
+	.about p {
+		font-size: 1.4rem;
 	}
 }
