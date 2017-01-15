@@ -607,3 +607,11 @@ li.fa a {
 		font-size: 1.2rem;
 	}
 }
+
+@media all and (min-width: 1240px) {
+
+	.hero-image-banner {
+		height: 70%;
+		background-size: cover, 280px, cover;
+	}
+}
