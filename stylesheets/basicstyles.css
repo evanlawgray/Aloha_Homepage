@@ -140,6 +140,7 @@ header {
 }
 
 article {
+	height: 30%;
 	padding: 0% 3%;
 	border-bottom: 1px solid #d7d7d7;
 }
@@ -459,5 +460,4 @@ li.fa p {
 		font-size: 3.5rem;
 		top: 18.5%;
 	}
-
 }
