@@ -114,17 +114,15 @@
 
 }
 
-
-html, body {
+html {
 	font-size: 14px;
-	height: 100%;
-	width: 100%;
-	font-size: 14px;
-	font-family: 'ralewaymedium', Arial, Serif;
 }
 
 body {
-	font-family: 'ralewaylight';
+	height: 100%;
+	width: 100%;
+	font-family: 'ralewaylight', Arial, Serif;
+	font-size: 1rem;
 	color: #2d2d2d;
 	line-height: 2;
 }
