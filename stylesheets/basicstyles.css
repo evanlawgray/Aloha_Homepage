@@ -652,4 +652,15 @@ li.fa a {
 	.about p {
 		max-width: 620px;
 	}
+
+	.product-list {
+		padding: 0 8%;
+		align-items: baseline;
+		margin-bottom: 5%;
+	}
+
+	.product-list-item {
+		width: 19%;
+		margin: 0 auto;
+	}
 }
