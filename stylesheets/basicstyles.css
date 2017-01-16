@@ -290,6 +290,8 @@ p.prices {
 
 .sign-up-bkgd {
 	height: 46.5%;
+	padding: 4.15rem 0;
+	color: white;
 	background: linear-gradient(
 			rgba(0, 0, 0, 0.17) 0%,
 			rgba(0, 0, 0, 0.17) 100%),
@@ -298,24 +300,19 @@ p.prices {
     flex-flow: column nowrap;
     justify-content: space-around;
     align-items: center;
-    color: white;
 }
 
 .sign-up-bkgd h2 {
-	margin: 0 auto;
-	position: relative;
-	top: 11%;
 	text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
 }
 
 .sign-up-bkgd p {
-	max-width: 424px;
+	max-width: 380px;
     min-width: 250px;
-    margin: 5% auto;
-    position: relative;
-    top: 2.3%;
-    font-size: 1.13rem;
+    margin: 0 auto;
+    font-size: 1.15rem;
     text-align: center;
+    line-height: 2.3rem;
 }
 
 .sign-up-form {
@@ -323,7 +320,7 @@ p.prices {
     right: 5%;
     height: auto;
     width: 75%;
-    margin: 0 12.5% 11% 12.5%;
+    margin: 2rem auto 0;
 }
 
 .email-input {
