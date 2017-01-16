@@ -129,8 +129,7 @@ body {
 
 header {
 	max-width: 100%;
-    height: 10.3%;
-    padding: 1% 2% 1% 2%;
+    padding: 3% 2% 3%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
