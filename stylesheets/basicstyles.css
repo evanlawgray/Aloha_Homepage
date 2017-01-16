@@ -316,9 +316,9 @@ p.prices {
 
 .sign-up-form {
 	position: relative;
-    right: 5%;
     height: auto;
-    width: 75%;
+    width: 70%;
+    max-width: 450px;
     margin: 2rem auto 0;
 }
 
@@ -540,7 +540,8 @@ li.fa a {
 	}
 
 	.sign-up-form {
-		width: 60%;
+		width: 65%;
+		margin: 0 auto;
 	}
 
 	.email-input {
@@ -662,5 +663,15 @@ li.fa a {
 	.product-list-item {
 		width: 19%;
 		margin: 0 auto;
+	}
+
+	.sign-up-bkgd {
+		padding: 5rem 0 5rem;
+	}
+
+	.sign-up-bkgd p {
+		max-width: 670px;
+		margin: 1.2% auto;
+		font-size: 1.33rem;
 	}
 }
