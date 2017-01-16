@@ -129,7 +129,7 @@ body {
 
 header {
 	max-width: 100%;
-    padding: 3% 2%;
+    padding: 3% 2% 2.5%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -289,7 +289,6 @@ p.prices {
 }
 
 .sign-up-bkgd {
-	height: 46.5%;
 	padding: 4.15rem 0;
 	color: white;
 	background: linear-gradient(
@@ -349,9 +348,9 @@ input[type="submit"] {
 
 footer {
 	height: 26%;
-    padding-top: 15%;
+    padding-top: 14%;
     padding-bottom: 10%;
-    margin-top: 1.8%;
+    margin-top: 8px;
     background: #242424;
     overflow: auto;
     display: flex;
@@ -443,9 +442,6 @@ li.fa a {
 @media all and (min-width: 600px) {
 
 	h1, h2, h3 {
-		margin-top: 8%;
-		margin-bottom: 3.5%;
-		font-size: 2.9rem;
 	}
 
 	.logo {
@@ -453,7 +449,7 @@ li.fa a {
 	}
 
 	.cart {
-		width: 57px;
+		width: 58px;
 	}
 
 	.hero-image-banner {
@@ -466,8 +462,9 @@ li.fa a {
 	}
 
 	.season {
-		font-size: 3.6rem;
-		top: 22%;
+		max-width: 100%;
+    	font-size: 3.6rem;
+    	top: 45%;
 	}
 
 	.about {
@@ -513,22 +510,21 @@ li.fa a {
 	}
 
 	.product-list h2 {
-		margin-top: 8%;
-		margin-bottom: 4%;
+		margin-bottom: 1.5rem;
 	}
 
 	.sign-up-bkgd {
-		height: 54.4%;
+		padding: 4.2rem 0 4.15rem;
 	}
 
 	.sign-up-bkgd h2 {
-		top: 12.7%;
-
+		position: relative;
+		top: 10px;
 	}
 
 	.sign-up-bkgd p {
-		max-width: 540px;
-		top: 2.6%;
+		max-width: 600px;
+		margin: 1.35rem 0;
 		font-size: 1.35rem;
 	}
 
@@ -554,7 +550,7 @@ li.fa a {
 
 	.footer-column {
 	height: auto;
-    margin: 13% 0% 10%;
+    margin: 7% 0% 10%;
     line-height: 2rem;
     float: left;
 	}
@@ -585,7 +581,7 @@ li.fa a {
 
 	.social-bar {
 		width: 20%;
-		margin: 13% 2% 10%;
+		margin: 10% 2% 10%;
 		text-align: right;
 		float: right;
 	}
