@@ -629,18 +629,19 @@ li.fa a {
 
 	.hero-image-banner {
 		height: 550px;
-		background-size: cover, 280px, 69%;
-		background-position: center, 50% 13px;
+		background-size: cover, 250px, 62%;
+		background-position: center, 50% 65px;
 		background-repeat: no-repeat, no-repeat, repeat-x;
 	}
 
-	.season {
-		font-size: 5rem;
-		top: 8%;
+	.collection {
+		font-size: 1.5rem;
+		top: 39.5%;
 	}
 
-	.collection {
-		font-size: 1.7rem;
+	.season {
+		font-size: 4.7rem;
+		top: 46%;
 	}
 
 	.about p {
