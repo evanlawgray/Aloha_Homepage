@@ -129,7 +129,7 @@ body {
 
 header {
 	max-width: 100%;
-    padding: 3% 2% 3%;
+    padding: 2% 2% 3%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
@@ -447,11 +447,14 @@ li.fa a {
 		margin-bottom: 3.5%;
 		font-size: 2.9rem;
 	}
-	
-	header {
-		height: 13%;
+
+	.logo {
+		width: 145px;
 	}
 
+	.cart {
+		width: 57px;
+	}
 	.hero-image-banner {
 		height: 58%;
 		background-size: cover, 158px, cover;
