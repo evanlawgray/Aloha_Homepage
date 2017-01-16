@@ -362,13 +362,17 @@ footer {
     overflow: auto;
     display: flex;
     flex-flow: column nowrap;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
 }
 
 .footer-column {
 	font-family: "playfair_displayregular", Arial, Serif;
+	display: inline-flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+	align-items: center;
 	line-height: 1.6rem;
 }
 
@@ -396,7 +400,10 @@ footer {
 .social-bar {
 	width: 100%;
     margin: 0 auto;
-    text-align: center;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .social-bar {
@@ -556,16 +563,19 @@ li.fa a {
 
 	footer {
 		height: 41%;
-		display: block;
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-between;
+		align-items: center;
 		padding: 0% 2% 0% 2%;
 		font-size: 1.15rem;
 	}
+
 
 	.footer-column {
 	height: auto;
     margin: 8% 0% 7%;
     line-height: 2rem;
-    float: left;
 	}
 
 	.copyright {
@@ -595,8 +605,8 @@ li.fa a {
 	.social-bar {
 		width: 20%;
 		margin: 8% 2% 8%;
+		flex-flow: column nowrap;
 		text-align: right;
-		float: right;
 	}
 
 	.social-bar li {
@@ -681,7 +691,7 @@ li.fa a {
 	footer {
 		padding-right: 0;
 	}
-
+/*
 	.footer-column {
 		margin: 5% auto 2% 7%;
 		line-height: 1.7rem;
@@ -691,7 +701,7 @@ li.fa a {
 		margin: 5% auto;
 		line-height: 1.7rem;
 	}
-
+*/
 	li.fa a {
 		margin-left: 5%;
 	}
