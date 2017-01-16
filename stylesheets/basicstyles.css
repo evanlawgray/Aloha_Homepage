@@ -488,7 +488,7 @@ li.fa a {
 	.product-list {
 		flex-flow: row wrap;
 		justify-content: center;
-		margin-bottom: 8%;
+		margin-bottom: 5%;
 	}
 
 	.product-list-item {
