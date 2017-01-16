@@ -442,7 +442,7 @@ li.fa a {
 @media all and (min-width: 600px) {
 
 	h1, h2 {
-		margin-bottom: 2.5rem;
+		margin-bottom: 3rem;
 	}
 
 	.logo {
@@ -523,18 +523,20 @@ li.fa a {
 	}
 
 	.sign-up-bkgd {
-		padding: 4.2rem 0 4.15rem;
+		padding: 5.3rem 0 4.15rem;
 	}
 
 	.sign-up-bkgd h2 {
 		position: relative;
-		top: 10px;
+		top: -5px;
 	}
 
 	.sign-up-bkgd p {
 		max-width: 600px;
-		margin: 1.35rem 0;
+		margin: 0 auto;
 		font-size: 1.35rem;
+		position: relative;
+		top: -6px;
 	}
 
 	.sign-up-form {
@@ -559,7 +561,7 @@ li.fa a {
 
 	.footer-column {
 	height: auto;
-    margin: 7% 0% 10%;
+    margin: 8% 0% 7%;
     line-height: 2rem;
     float: left;
 	}
@@ -590,7 +592,7 @@ li.fa a {
 
 	.social-bar {
 		width: 20%;
-		margin: 10% 2% 10%;
+		margin: 8% 2% 8%;
 		text-align: right;
 		float: right;
 	}
