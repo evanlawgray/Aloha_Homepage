@@ -674,4 +674,22 @@ li.fa a {
 		margin: 1.2% auto;
 		font-size: 1.33rem;
 	}
+
+	footer {
+		padding-right: 0;
+	}
+
+	.footer-column {
+		margin: 5% auto 2% 7%;
+		line-height: 1.7rem;
+	}
+
+	.social-bar {
+		margin: 5% auto;
+		line-height: 1.7rem;
+	}
+
+	li.fa a {
+		margin-left: 5%;
+	}
 }
