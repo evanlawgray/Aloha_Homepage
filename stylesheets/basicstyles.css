@@ -183,6 +183,7 @@ img {
 
 .cart {
 	width: 50px;
+	cursor: pointer;
 }
 
 .hidden-header {
