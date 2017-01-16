@@ -441,7 +441,7 @@ li.fa a {
 
 @media all and (min-width: 600px) {
 
-	h1, h2, h3 {
+	h1, h2 {
 		margin-bottom: 2.5rem;
 	}
 
@@ -479,15 +479,19 @@ li.fa a {
     	line-height: 2.8rem;
 	}
 
+	.shop {
+		padding-top: 5rem;
+	}
+
 	.product-list {
 		flex-flow: row wrap;
 		justify-content: center;
-		margin-bottom: 14%;
+		margin-bottom: 8%;
 	}
 
 	.product-list-item {
-		width: 43%;
-		margin-bottom: 5%;
+		width: 35%;
+		margin: 0 5% 5%;
 	}
 
 	.product-list p {
@@ -495,18 +499,19 @@ li.fa a {
 	}
 
 	.product-name {
-		font-size: 2rem;
+		font-size: 1.85rem;
 	    max-width: 245px;
+	    margin: 0 auto 1rem;
 	}
 
 	.product-list li:nth-child(3) h3 {
+		max-width: 220px;
 	    line-height: 1.8rem;
-	    margin: 7% auto;
 	}
 
 	.product-list li:nth-child(4) h3 {
+	    max-width: 220px;
 	    line-height: 1.9rem;
-	    margin: 7% auto;
 	}
 
 	p.prices {
