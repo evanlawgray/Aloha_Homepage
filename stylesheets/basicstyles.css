@@ -1,3 +1,4 @@
+/* Font declarations */
 
 @font-face {
     font-family: 'playfair_displaybold';
@@ -114,6 +115,8 @@
 
 }
 
+/* Page Structure */
+
 html {
 	font-size: 14px;
 }
@@ -127,6 +130,13 @@ body {
 	line-height: 2rem;
 }
 
+.container {
+	max-width: 100%;
+	text-align: center;
+}
+
+/* Main styles for mobile */
+
 header {
 	max-width: 100%;
     padding: 3% 2% 2.5%;
@@ -134,11 +144,6 @@ header {
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-}
-
-.container {
-	max-width: 100%;
-	text-align: center;
 }
 
 h2, h3 {
@@ -411,16 +416,6 @@ li.fa a {
 	font-family: "ralewaymedium", Arial, Serif;
 }
 
-/*
-.float-left {
-	float: left;
-}
-
-.float-right {
-	float: right;
-}
-*/
-
 .clearfix::after {
 	content: "";
 	display: block;
@@ -440,6 +435,10 @@ li.fa a {
 .darkborder {
 	border-color: #242424;
 }
+
+/* Media queries */
+
+/* Tablet */
 
 @media all and (min-width: 600px) {
 
@@ -614,6 +613,8 @@ li.fa a {
 		font-size: 1.2rem;
 	}
 }
+
+/* Desktop */
 
 @media all and (min-width: 1240px) {
 
