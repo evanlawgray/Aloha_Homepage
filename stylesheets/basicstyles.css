@@ -210,7 +210,6 @@ img {
 	height: 400px;
 	text-align: center;
 	color: white;
-	margin-bottom: 10px;
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.25) 0%,
 		rgba(0, 0, 0, 0.25) 100%),
@@ -236,16 +235,14 @@ img {
 
 .about {
 	height: 30%;
-	padding: 0% 3%;
+	padding: 15.3% 3%;
 	border-bottom: 1px solid #d7d7d7;
 }
 
 .about p {
-	width: 100%;
+	max-width: 350px;
 	margin: 0 auto;
 	font-size: 1.15rem;
-	margin-bottom: 12%;
-	margin-top: 0%;
 }
 
 .product-list-item {
