@@ -644,7 +644,12 @@ li.fa a {
 		top: 46%;
 	}
 
+	h2 {
+		font-size: 2.8rem;
+		margin-bottom: 2rem;
+	}
+
 	.about p {
-		max-width: 680px;
+		max-width: 620px;
 	}
 }
