@@ -241,6 +241,10 @@ img {
 }
 
 .about {
+	display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    align-items: center;
 	padding-top: 4.4rem;
 	padding-bottom: 4.4rem;
 	border-bottom: 1px solid #d7d7d7;
@@ -248,7 +252,6 @@ img {
 
 .about p {
 	max-width: 440px;
-	margin: 0 auto;
 	font-size: 1.15rem;
 }
 
@@ -694,17 +697,7 @@ li.fa a {
 	footer {
 		padding-right: 0;
 	}
-/*
-	.footer-column {
-		margin: 5% auto 2% 7%;
-		line-height: 1.7rem;
-	}
 
-	.social-bar {
-		margin: 5% auto;
-		line-height: 1.7rem;
-	}
-*/
 	li.fa a {
 		margin-left: 5%;
 	}
