@@ -310,13 +310,20 @@ p.prices {
     align-items: center;
 }
 
-.sign-up-bkgd h2 {
+.sign-up-content {
+	display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-content h2 {
 	text-shadow: 2px 2px 3px rgba(100, 100, 100, 0.8);
 }
 
-.sign-up-bkgd p {
-	max-width: 380px;
-    min-width: 250px;
+.sign-up-content p {
+	max-width: 450px;
+	min-width: 250px;
     margin: 0 auto;
     font-size: 1.15rem;
     text-align: center;
