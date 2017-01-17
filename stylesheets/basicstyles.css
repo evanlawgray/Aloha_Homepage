@@ -570,9 +570,13 @@ li.fa a {
 
 
 	.footer-column {
-	height: auto;
-    margin: 8% 0% 7%;
-    line-height: 2rem;
+		height: auto;
+	    margin: 8% 0% 7%;
+	    line-height: 2rem;
+	    display: flex;
+	    flex-flow: column nowrap;
+	    justify-content: space-between;
+	    align-items: flex-start;
 	}
 
 	.copyright {
