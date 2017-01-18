@@ -138,29 +138,6 @@ body {
 
 /* Main styles for mobile */
 
-header {
-	max-width: 100%;
-    padding: 3% 2% 2%;
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.nav-list {
-	font-family: 'ralewaymedium', Arial, Serif;
-	color: #e2574c;
-	font-size: 1.4rem;
-	text-transform: uppercase;
-	padding: 1rem 1rem;
-	border-top: 1px solid #d7d7d7;
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: space-around;
-	align-items: center;
-	border-bottom: #d7d7d7;
-}
-
 h2, h3 {
 	font-family: 'playfairdisplay-regular-webfont', Arial, Serif;
 }
@@ -197,11 +174,60 @@ img {
 	display: inline;
 }
 
+header {
+	max-width: 100%;
+	border-bottom: 1px solid #d7d7d7;
+    padding: 3% 2% 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-container {
+	width: 50%;
+	padding-bottom: 2%;
+	display: flex;
+	justify-content: flex-start;
+}
+
+.cart-container {
+	width: 50%;
+	padding-bottom: 2%;
+	display: flex;
+	justify-content: flex-end;
+}
+
+.nav-bar {
+	width: 100%;
+	border-top: 1px solid #d7d7d7;
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-list {
+	width: 85%;
+	font-family: 'ralewaymedium', Arial, Serif;
+	color: #e2574c;
+	font-size: 1rem;
+	text-transform: uppercase;
+	padding: 0.5rem 1rem 0;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	align-items: center;
+	border-bottom: #d7d7d7;
+}
+
 .logo {
+	height: 100%;
 	width: 120px;
 }
 
 .cart {
+	height: 100%;
 	width: 50px;
 	cursor: pointer;
 }
