@@ -176,7 +176,7 @@ img {
 
 header {
 	box-sizing: border-box;
-	min-height: 116px;
+	height: 116px;
 	width: 100%;
 	background-color: white;
 	border-bottom: 1px solid #d7d7d7;
@@ -362,7 +362,7 @@ p.prices {
 	background: linear-gradient(
 			rgba(0, 0, 0, 0.17) 0%,
 			rgba(0, 0, 0, 0.17) 100%),
-			url("../assets/images/wave-bkgd.jpg") no-repeat center bottom;
+			url("../assets/images/wave-bkgd.jpg") no-repeat center top;
 	display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
@@ -521,6 +521,28 @@ li.fa a {
 		margin-bottom: 3rem;
 	}
 
+	header {
+		max-height: 88px;
+		height: initial;
+		padding: 3% 0 2%;
+	}
+
+	.logo-container {
+		width: 15%;
+		order: 1;
+	}
+
+	.cart-container {
+		width: 5%;
+		order: 3;
+	}
+
+	.nav-bar {
+		width: 55%;
+		border-top: none;
+		order: 2;
+	}
+
 	.logo {
 		width: 145px;
 	}
@@ -530,6 +552,7 @@ li.fa a {
 	}
 
 	.hero-image-banner {
+		margin-top: 88px;
 		background-size: cover, 150px, cover;
 	}
 
