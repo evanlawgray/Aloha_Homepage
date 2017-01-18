@@ -148,14 +148,21 @@ header {
 }
 
 .nav-list {
+	font-family: 'ralewaymedium', Arial, Serif;
+	color: #e2574c;
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	padding: 1rem 1rem;
+	border-top: 1px solid #d7d7d7;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: space-around;
 	align-items: center;
+	border-bottom: #d7d7d7;
 }
 
 h2, h3 {
-	font-family: 'playfairdisplay-regular-webfont'
+	font-family: 'playfairdisplay-regular-webfont', Arial, Serif;
 }
 
 h2 {
