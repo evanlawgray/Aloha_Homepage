@@ -537,11 +537,13 @@ footer {
 
 	.logo-container {
 		width: 15%;
+		padding: 0;
 		order: 1;
 	}
 
 	.cart-container {
-		width: 5%;
+		width: 15%;
+		padding: 0;
 		order: 3;
 	}
 
