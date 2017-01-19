@@ -274,7 +274,7 @@ header {
 		rgba(0, 0, 0, 0.25) 0%,
 		rgba(0, 0, 0, 0.25) 100%),
 		url("../assets/images/banner-girl.png") no-repeat center bottom -25px,
-		url("../assets/images/flower-bkgd.jpg") no-repeat center;
+		url("../assets/images/flower-bkgd.jpg") repeat-x center top;
 	background-size: cover, 150px, cover;
 }
 
@@ -356,13 +356,17 @@ p.prices {
 	font-size: 1rem;
 }
 
+.products {
+	width: 100%;
+}
+
 .sign-up-bkgd {
 	padding: 4.15rem 0;
 	color: white;
 	background: linear-gradient(
 			rgba(0, 0, 0, 0.17) 0%,
 			rgba(0, 0, 0, 0.17) 100%),
-			url("../assets/images/wave-bkgd.jpg") no-repeat center top;
+			url("../assets/images/wave-bkgd.jpg") no-repeat center bottom;
 	display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
@@ -485,7 +489,7 @@ footer {
     padding: 0;
 }
 
-li.fa a {
+.fa a {
 	height: 0px;
 	display: none;
 	font-family: "ralewaymedium", Arial, Serif;
@@ -517,14 +521,18 @@ li.fa a {
 
 @media all and (min-width: 600px) {
 
-	h1, h2 {
+	h2 {
 		margin-bottom: 3rem;
 	}
 
 	header {
 		max-height: 88px;
 		height: initial;
-		padding: 3% 0 2%;
+		padding: 0%;
+	}
+
+	.header-content {
+		padding: 3% 2%;
 	}
 
 	.logo-container {
@@ -552,8 +560,7 @@ li.fa a {
 	}
 
 	.hero-image-banner {
-		margin-top: 88px;
-		background-size: cover, 150px, cover;
+		margin-top: 87px;
 	}
 
 	.collection {
@@ -622,6 +629,7 @@ li.fa a {
 	}
 
 	.sign-up-bkgd {
+		background-position: center bottom;
 		padding: 5.3rem 0 4.15rem;
 	}
 
@@ -711,7 +719,7 @@ li.fa a {
 		text-align: left;
 	}
 
-	li.fa a {
+	.fa a {
 		display: inline;
 		margin-left: 12%;
 		text-decoration: none;
@@ -787,7 +795,7 @@ li.fa a {
 		padding-right: 0;
 	}
 
-	li.fa a {
+	.fa a {
 		margin-left: 5%;
 	}
 }
