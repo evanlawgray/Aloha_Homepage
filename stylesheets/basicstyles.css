@@ -325,6 +325,10 @@ header {
 	align-content: flex-start;
 }
 
+.categories .category {
+	background-size: cover;
+}
+
 .category:nth-child(1) {
 	border-bottom: 4px solid white;
 }
