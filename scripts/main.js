@@ -11,9 +11,10 @@ $(function(){
             }
 		};
 
-	/*$('email-input').on('focus', function hideText() {
-		$('email-input').text("");
-	});*/
+	$('.email-input').on('focus', function hideText() {
+		$('.email-input').attr('value', ' ');
+	});
+
 
 	emailSubmitButton.on('click', function(event){
 		event.preventDefault();
