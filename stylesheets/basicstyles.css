@@ -315,7 +315,7 @@ header {
 }
 
 .products {
-	height: 92vh;
+	height: 95vh;
 	width: 100%;
 }
 
@@ -688,25 +688,33 @@ footer {
     	font-size: 1.3rem;
     	line-height: 2.8rem;
 	}
-/*
-	.categories {
-		height: 40vh;
-	}
-*/
+
 	.products {
-		height: 350px;
+		height: 45vh;
 	}
 
 	.categories .category {
-		height: 50%;
+		box-sizing: border-box;
+		height: 49%;
 	}
 
 	.categories .wide-category {
-		flex: 2 2 49%;
+		flex: 2 2 46.7%;
+		border-top: 0;
+		border-bottom: 0;
 	}
 
 	.categories .narrow-category {
-		flex: 1 1 25%;
+		flex: 1 1 24%;
+		border-bottom: 0;
+	}
+
+	.category:nth-child(2) {
+		border-left: 0.7rem solid white;
+	}
+
+	.category:nth-child(5) {
+		border-right: 0.7rem solid white;
 	}
 
 	.shop {
