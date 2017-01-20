@@ -13,7 +13,11 @@ $(function(){
 
 	$('.email-input').on('focus', function hideText() {
 		$('.email-input').attr('value', ' ');
+		$('.email-input').val('');
 	});
+	/*$('.email-input').on('blur', function addText (){
+		$('.email-input').attr('value', ' ');
+	});*/
 
 
 	emailSubmitButton.on('click', function(event){
