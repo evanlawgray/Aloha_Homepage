@@ -280,7 +280,7 @@ header {
 
 .collection {
 	font-size: 1.25rem;
-	font-family: 'ralewaymedium';
+	font-family: 'ralewaymedium', Arial, Serif;
 	text-transform: uppercase;
 	position: relative;
 	bottom: 12px;
@@ -329,8 +329,15 @@ header {
 .categories .category {
 	min-height: 30vh;
 	max-height: 30vh;
+	font-family: 'ralewaymedium', Arial, Serif;
+	font-size: 1.5rem;
+	color: white;
+	text-transform: uppercase;
 	text-align: center;
 	background-size: cover;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 }
 
 .category:nth-child(1) {
