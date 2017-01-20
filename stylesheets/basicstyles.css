@@ -502,6 +502,10 @@ p.prices {
     margin: 3rem 8% 0 0;
 }
 
+input:focus {
+	outline: none;
+}
+
 .email-input {
 	height: 42px;
 	width: 100%;
