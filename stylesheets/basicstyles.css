@@ -315,7 +315,8 @@ header {
 }
 
 .products {
-	height: 920px;
+	height: 92vh;
+	width: 100%;
 }
 
 .categories {
@@ -323,11 +324,11 @@ header {
 	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
-	align-content: flex-start;
+	align-content: space-between;
 }
 
 .categories .category {
-	height: 24%;
+	height: 25%;
 	font-family: 'ralewaymedium', Arial, Serif;
 	font-size: 1.5rem;
 	color: white;
@@ -340,24 +341,24 @@ header {
 }
 
 .category:nth-child(1) {
-	border-bottom: 4px solid white;
+	border-bottom: 0.7rem solid white;
 }
 
 .category:nth-child(2) {
-	border-right: 4px solid white;
-	border-bottom: 4px solid white;
+	border-right: 0.7rem solid white;
+	border-bottom: 0.7rem solid white;
 }
 
 .category:nth-child(3) {
-	border-bottom: 4px solid white;
+	border-bottom: 0.7rem solid white;
 }
 
 .category:nth-child(4) {
-	border-right: 4px solid white;
+	border-right: 0.7rem solid white;
 }
 
 .category:nth-child(6) {
-	border-top: 4px solid white;
+	border-top: 0.7rem solid white;
 }
 
 .category.wide-category {
@@ -365,7 +366,7 @@ header {
 }
 
 .category.narrow-category {
-	flex: 1 1 49%
+	flex: 1 1 48%
 }
 
 .mens {
@@ -455,10 +456,6 @@ header {
 p.prices {
 	margin: 0;
 	font-size: 1rem;
-}
-
-.products {
-	width: 100%;
 }
 
 .sign-up-bkgd {
