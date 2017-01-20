@@ -319,6 +319,7 @@ header {
 }
 
 .categories {
+	height: 120vh;
 	width: 100%;
 	display: flex;
 	flex-flow: row wrap;
@@ -326,6 +327,9 @@ header {
 }
 
 .categories .category {
+	min-height: 30vh;
+	max-height: 30vh;
+	text-align: center;
 	background-size: cover;
 }
 
@@ -350,12 +354,6 @@ header {
 	border-top: 4px solid white;
 }
 
-.category {
-	height: 30vh;
-	text-align: center;
-	background-size: cover;
-}
-
 .category.wide-category {
 	height: 30vh;
 	text-align: center;
@@ -363,32 +361,50 @@ header {
 }
 
 .mens {
-	background: url("../assets/images/mens-category.jpg") no-repeat center center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.25) 0%,
+		rgba(0, 0, 0, 0.25) 100%),
+	    url("../assets/images/mens-category.jpg") no-repeat center center;
 	flex: 2 1 100%;
 }
 
 .trends {
-	background: url("../assets/images/trends-category.jpg") no-repeat center center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.25) 0%,
+		rgba(0, 0, 0, 0.25) 100%),
+		url("../assets/images/trends-category.jpg") no-repeat center center;
 	flex: 1 1 45%;
 }
 
 .glasses {
-	background: url("../assets/images/glasses-category.jpg") no-repeat center center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.25) 0%,
+		rgba(0, 0, 0, 0.25) 100%), 
+	    url("../assets/images/glasses-category.jpg") no-repeat center center;
 	flex: 1 1 45%;
 }
 
 .sale {
-	background: url("../assets/images/sale-category.jpg") no-repeat center center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.25) 0%,
+		rgba(0, 0, 0, 0.25) 100%),
+	    url("../assets/images/sale-category.jpg") no-repeat center center;
 	flex: 1 1 45%;
 }
 
 .bags {
-	background: url("../assets/images/bags-category.jpg") no-repeat center center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.25) 0%,
+		rgba(0, 0, 0, 0.25) 100%),
+	    url("../assets/images/bags-category.jpg") no-repeat center center;
 	flex: 1 1 45%;
 }
 
 .womens {
-	background: url("../assets/images/womens-category.jpg") no-repeat center center;
+	background: linear-gradient(
+		rgba(0, 0, 0, 0.25) 0%,
+		rgba(0, 0, 0, 0.25) 100%), 
+		url("../assets/images/womens-category.jpg") no-repeat center center;
 	flex: 1 1 100%;
 }
 
