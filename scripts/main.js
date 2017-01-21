@@ -14,10 +14,11 @@ $(function(){
 
 	$('nav a').on('click', function(){
 		var $targetDivClass = $(this).attr('id');
-		var $targetDivOffset = $('.' + $targetDivClass);
-		console.log($;
+		var $targetDivOffset = $('.' + $targetDivClass).offset();
+		console.log($targetDivOffset);
 		$pageRoot.animate({
-        scrollTop: $( $.attr(this, 'href') ).offset().top()}, 500);
+        //scrollTop: $( $.attr(this, 'href') ).offset().top}, 500);
+        scrollTop: $targetDivOffset.top}, 500);
     	return false;
 	});
 
