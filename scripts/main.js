@@ -18,7 +18,7 @@ $(function(){
 		console.log($targetDivOffset);
 		$pageRoot.animate({
         //scrollTop: $( $.attr(this, 'href') ).offset().top}, 500);
-        scrollTop: $targetDivOffset.top}, 500);
+        scrollTop: $targetDivOffset.top}, 100000);
     	return false;
 	});
 
