@@ -157,6 +157,7 @@ h3 {
 
 a {
 	color: #e2574c;
+	text-decoration: none;
 }
 
 a:hover {
