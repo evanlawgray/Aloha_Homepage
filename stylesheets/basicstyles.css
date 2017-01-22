@@ -9,7 +9,6 @@
          url('../assets/fonts/playfairdisplay-bold-webfont.svg#playfair_displaybold') format('svg');
     font-weight: bold;
     font-style: normal;
-
 }
 
 
@@ -22,10 +21,7 @@
          url('../assets/fonts/playfairdisplay-bolditalic-webfont.svg#playfair_displaybold_italic') format('svg');
     font-weight: bold;
     font-style: italic;
-
 }
-
-
 
 
 @font-face {
@@ -37,10 +33,7 @@
          url('../assets/fonts/playfairdisplay-italic-webfont.svg#playfair_displayitalic') format('svg');
     font-weight: normal;
     font-style: italic;
-
 }
-
-
 
 
 @font-face {
@@ -52,10 +45,7 @@
          url('../assets/fonts/playfairdisplay-regular-webfont.svg#playfair_displayregular') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 
 
 @font-face {
@@ -67,10 +57,7 @@
          url('../assets/fonts/raleway-light-webfont.svg#ralewaylight') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 
 
 @font-face {
@@ -82,10 +69,7 @@
          url('../assets/fonts/raleway-lightitalic-webfont.svg#ralewaylight_italic') format('svg');
     font-weight: normal;
     font-style: italic;
-
 }
-
-
 
 
 @font-face {
@@ -97,10 +81,7 @@
          url('../assets/fonts/raleway-medium-webfont.svg#ralewaymedium') format('svg');
     font-weight: normal;
     font-style: normal;
-
 }
-
-
 
 
 @font-face {
@@ -112,10 +93,11 @@
          url('../assets/fonts/raleway-mediumitalic-webfont.svg#ralewaymedium_italic') format('svg');
     font-weight: normal;
     font-style: italic;
-
 }
 
+
 /* Page Structure */
+
 
 html {
 	font-size: 14px;
@@ -137,7 +119,8 @@ body {
 	text-align: center;
 }
 
-/* Main styles for mobile */
+/* Styles for mobile */
+
 
 h2, h3 {
 	font-family: 'playfairdisplay-regular-webfont', Arial, Serif;
@@ -174,6 +157,13 @@ img {
 	height: auto;
 	max-height: 100%;
 	display: inline;
+}
+
+.hidden-header {
+	width: 0px;
+	height: 0px;
+	margin: 0;
+	visibility: hidden;
 }
 
 header {
@@ -216,7 +206,7 @@ header {
 
 .nav-bar {
 	width: 100%;
-	padding: 0.5rem;
+	padding: 0.8rem 0.5rem 0;
 	border-top: 1px solid #d7d7d7;
 	display: flex;
     flex-direction: row;
@@ -228,7 +218,7 @@ header {
 	width: 100%;
 	font-family: 'ralewaymedium', Arial, Serif;
 	color: #e2574c;
-	font-size: 1rem;
+	font-size: 1.2rem;
 	text-transform: uppercase;
 	display: flex;
 	flex-wrap: nowrap;
@@ -250,13 +240,6 @@ header {
 	height: 50px;
 	width: 50px;
 	cursor: pointer;
-}
-
-.hidden-header {
-	width: 0px;
-	height: 0px;
-	margin: 0;
-	visibility: hidden;
 }
 
 .bold-header {
@@ -301,7 +284,7 @@ header {
 	top: 7px;
 }
 
-.about {
+.about-section {
 	display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
@@ -311,7 +294,7 @@ header {
 	border-bottom: 1px solid #d7d7d7;
 }
 
-.about p {
+.about-section p {
 	max-width: 440px;
 	font-size: 1.15rem;
 }
@@ -657,13 +640,13 @@ footer a{
 	}
 
 	.logo-container {
-		width: 15%;
+		width: 20%;
 		padding: 0;
 		order: 1;
 	}
 
 	.cart-container {
-		width: 15%;
+		width: 20%;
 		padding: 0;
 		order: 3;
 	}
@@ -697,12 +680,12 @@ footer a{
     	top: 5px;
 	}
 
-	.about {
+	.about-section {
 		height: 36%;
 		padding-bottom: 3.6rem 0;
 	}
 
-	.about p {
+	.about-section p {
 		max-width: 600px;
     	font-size: 1.3rem;
     	line-height: 2.8rem;
@@ -889,7 +872,7 @@ footer a{
 
 	.hero-image-banner {
 		height: 550px;
-		background-size: cover, 250px, 62%;
+		background-size: cover, 250px, 70%;
 		background-position: center, 50% 60px;
 		background-repeat: no-repeat, no-repeat, repeat-x;
 	}
@@ -909,8 +892,9 @@ footer a{
 		margin-bottom: 2rem;
 	}
 
-	.about p {
-		max-width: 620px;
+	.about-section p {
+		max-width: 700px;
+		font-size: 1.5rem;
 	}
 
 	.product-list {
