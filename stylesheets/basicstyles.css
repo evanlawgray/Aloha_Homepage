@@ -409,7 +409,7 @@ header {
 }
 
 .shop-container {
-	height: 600px;
+	height: 80vh;
 	text-align: center;
     display: flex;
     flex-flow: column;
@@ -430,7 +430,7 @@ header {
 
 }
 .product-list-item img{
-	max-width: 80%;
+	max-width: 70%;
 }
 
 .product-list p {
