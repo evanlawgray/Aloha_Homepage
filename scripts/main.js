@@ -1,7 +1,7 @@
 $(function(){
 
 	var emailSubmitButton = $('#email-submit-button');
-	var $pageRoot = $('html', 'body');
+	var $pageRoot = $(document.body);
 
 	function validateEmail(email){
 			var filter = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
@@ -12,13 +12,15 @@ $(function(){
             }
 		};
 
-	$('nav a').on('click', function(){
-		var $targetDivClass = $(this).attr('id');
-		var $targetDivOffset = $('.' + $targetDivClass).offset();
-		console.log($targetDivOffset);
+	$('nav a').on('click', function(event){
+		event.preventDefault();
+
+		var target = $(this.hash);
+		var target = $(target);
+
+		var $headerHeight = $('header').innerHeight();
 		$pageRoot.animate({
-        //scrollTop: $( $.attr(this, 'href') ).offset().top}, 500);
-        scrollTop: $targetDivOffset.top}, 100000);
+        scrollTop: target.offset().top -$headerHeight}, 800, 'swing');
     	return false;
 	});
 
