@@ -348,11 +348,11 @@ header {
 }
 
 .category.wide-category {
-	flex: 2 2 100%
+	flex: 2 0 100%
 }
 
 .category.narrow-category {
-	flex: 1 1 50%;
+	flex: 1 0 50%;
 }
 
 .mens {
@@ -695,7 +695,7 @@ footer a{
 	}
 
 	.products {
-		height: 45vh;
+		height: 52vw;
 	}
 
 	.categories {
@@ -703,14 +703,14 @@ footer a{
 	}
 
 	.categories .wide-category {
-		flex: 2 2 50%;
+		flex: 2 0 50%;
 		max-width: 49.6%;
 		border-top: 0;
 		border-bottom: 0;
 	}
 
 	.categories .narrow-category {
-		flex: 1 1 25%;
+		flex: 1 0 25%;
 		max-width: 24.4%;
 		border-bottom: 0;
 	}
