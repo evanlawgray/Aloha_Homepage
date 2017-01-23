@@ -21,13 +21,14 @@ $(function(){
 
 		var $headerHeight = $('header').innerHeight();
 		$pageRoot.animate({
-        scrollTop: target.offset().top -$headerHeight}, 800, 'swing');
+        scrollTop: target.offset().top -$headerHeight}, 700, 'swing');
     	return false;
 	});
 
 	$('.product-list').flickity({
 		accessibility: true,
 		resize: false,
+		setGallerySize: false,
 		initialIndex: 0,
 		cellSelector: '.product-list-item',
 		cellAlign: 'left',
