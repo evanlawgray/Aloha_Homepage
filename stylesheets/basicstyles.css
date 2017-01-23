@@ -919,11 +919,15 @@ footer a{
 	.sign-up-bkgd {
 		padding: 6.5rem 0 5rem;
 	}
+	.sign-up-bkgd h2 {
+		top: 3rem;
+	}
 
 	.sign-up-bkgd p {
-		max-width: 670px;
-		margin: 1.2% auto;
-		font-size: 1.33rem;
+		max-width: 705px;
+		margin: 1% auto;
+		font-size: 1.4rem;
+		top: 4.5rem;
 	}
 
 	footer {
