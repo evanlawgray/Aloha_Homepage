@@ -454,7 +454,7 @@ p.prices {
 	font-size: 1rem;
 }
 
-.sign-up-bkgd {
+.sign-up-background {
 	height: 250px;
 	padding: 4.15rem 0;
 	color: white;
@@ -515,8 +515,8 @@ input:focus {
 }
 
 input[type="submit"] {
-    height: 84%;
-    width: 34%;
+    height: 85%;
+    width: 35%;
     font-size: 1rem;
     color: white;
     background-color: #e2574c;
@@ -525,7 +525,7 @@ input[type="submit"] {
     border-radius: 50px;
     position: absolute;
     bottom: 9%;
-    left: 77%;
+    left: 76%;
 }
 
 footer {
@@ -761,16 +761,16 @@ footer a{
 		margin-bottom: 1.5rem;
 	}
 
-	.sign-up-bkgd {
+	.sign-up-background {
 		background-position: center bottom;
 	}
 
-	.sign-up-bkgd h2 {
+	.sign-up-background h2 {
 		margin: 0;
 		position: relative;
 	}
 
-	.sign-up-bkgd p {
+	.sign-up-background p {
 		max-width: 760px;
 		margin: 0 auto;
 		padding-bottom: 3rem;
@@ -795,7 +795,7 @@ footer a{
 	}
 
 	footer {
-		height: 41%;
+		height: 40%;
 		display: flex;
 		flex-flow: row nowrap;
 		justify-content: space-between;
@@ -916,14 +916,14 @@ footer a{
 		margin: 0 auto;
 	}
 
-	.sign-up-bkgd {
+	.sign-up-background {
 		padding: 6.5rem 0 5rem;
 	}
-	.sign-up-bkgd h2 {
+	.sign-up-background h2 {
 		top: 3rem;
 	}
 
-	.sign-up-bkgd p {
+	.sign-up-background p {
 		max-width: 705px;
 		margin: 1% auto;
 		font-size: 1.4rem;
