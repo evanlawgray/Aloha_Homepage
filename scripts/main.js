@@ -33,7 +33,7 @@ $(function(){
 		cellSelector: '.product-list-item',
 		cellAlign: 'left',
 		groupCells: false,
-		percentPosition: false,
+		percentPosition: true,
 		autoPlay: 3000,
 		pauseAutoPlayOnHover: false,
 		contain: true
