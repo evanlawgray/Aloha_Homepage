@@ -17,9 +17,8 @@ $(function(){
 		event.preventDefault();
 
 		var target = $(this.hash);
-		var target = $(target);
-
 		var $headerHeight = $('header').innerHeight();
+
 		$pageRoot.animate({
         scrollTop: target.offset().top -$headerHeight}, 700, 'swing');
     	return false;
