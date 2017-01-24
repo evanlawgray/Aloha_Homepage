@@ -32,10 +32,10 @@ $(function(){
 		initialIndex: 0,
 		cellSelector: '.product-list-item',
 		cellAlign: 'left',
-		groupCells: false,
+		groupCells: '100%',
 		percentPosition: false,
 		autoPlay: 3000,
-		pauseAutoPlayOnHover: false,
+		pauseAutoPlayOnHover: true,
 		contain: true
 	});
 
