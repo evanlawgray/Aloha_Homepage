@@ -138,6 +138,28 @@ h3 {
 	margin-bottom: 1rem;
 }
 
+a.screen-reader-text {
+   clip: rect(1px, 1px, 1px, 1px);
+   position: absolute !important;
+   height: 1px;
+   width: 1px;
+   overflow: hidden;
+}
+
+a.screen-reader-text:focus {
+	content: "Skip to shop";
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	clip: auto;
+	z-index: 1000;
+	height: 50px;
+	width: 100px;
+	background-color: white;
+	outline: none;
+	box-shadow: 5px 5px 5px #888888;
+}
+
 a {
 	color: #e2574c;
 	text-decoration: none;
@@ -535,6 +557,11 @@ header {
     padding-top: 5rem;
     padding-bottom: 4rem;
 }
+
+#shop[tabindex="-1"]:focus {
+	outline: 0;
+}
+
 
 .flickity-viewport {
 	display: -webkit-box;
