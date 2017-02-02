@@ -133,7 +133,7 @@ h2 {
 }
 
 h3 {
-	color: #e2574c;
+	color: #db3a26;
 	font-size: 1.5rem;
 	margin-bottom: 1rem;
 }
@@ -161,7 +161,7 @@ a.screen-reader-text:focus {
 }
 
 a {
-	color: #e2574c;
+	color: #db3a26;
 	text-decoration: none;
 }
 
@@ -273,7 +273,7 @@ header {
 .nav-list {
 	width: 100%;
 	font-family: 'ralewaymedium', Arial, Serif;
-	color: #e2574c;
+	color: #db3a26;
 	font-size: 1.2rem;
 	text-transform: uppercase;
 	display: -webkit-box;
@@ -706,7 +706,7 @@ input[type="submit"] {
     width: 35%;
     font-size: 1rem;
     color: white;
-    background-color: #e2574c;
+    background-color: #db3a26;
     cursor: pointer;
     border: none;
     border-radius: 50px;
@@ -768,7 +768,7 @@ footer a{
 }
 
 .copyright-symbol:before {
-	content: "\00a9 ";
+	content: "\00a9";
 }
 
 .contact {
