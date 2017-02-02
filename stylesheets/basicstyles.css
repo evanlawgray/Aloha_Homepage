@@ -767,6 +767,10 @@ footer a{
 	color: white;
 }
 
+.copyright-symbol:before {
+	content: "\00a9 ";
+}
+
 .contact {
 	max-width: 250px;
 	text-align: center;
