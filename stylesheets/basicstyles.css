@@ -254,7 +254,7 @@ header {
 
 .nav-bar {
 	width: 100%;
-	padding: 0.8rem 0.5rem 0;
+	padding: 1rem 0.5rem 0;
 	border-top: 1px solid #d7d7d7;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -274,7 +274,7 @@ header {
 	width: 100%;
 	font-family: 'ralewaymedium', Arial, Serif;
 	color: #e2574c;
-	font-size: 1.2rem;
+	font-size: 1.15rem;
 	text-transform: uppercase;
 	display: -webkit-box;
 	display: -ms-flexbox;
@@ -291,16 +291,16 @@ header {
 }
 
 .nav-list li {
-	margin: 0 1rem;
+	margin: 0 0.75rem;
 }
 
 .logo {
-	height: 50px;
+	height: 53px;
 	width: 120px;
 }
 
 .cart {
-	height: 50px;
+	height: 55px;
 	width: 50px;
 	cursor: pointer;
 }
@@ -327,11 +327,11 @@ header {
 	    -ms-flex-align: center;
 	        align-items: center;
 	color: white;
-	background: -webkit-linear-gradient(
+/*	background: -webkit-linear-gradient(
 		rgba(0, 0, 0, 0.25) 0%,
 		rgba(0, 0, 0, 0.25) 100%),
 		url("../assets/images/banner-girl.png") no-repeat center bottom -25px,
-		url("../assets/images/flower-bkgd.jpg") repeat-x center top;
+		url("../assets/images/flower-bkgd.jpg") repeat-x center top;*/
 	background: linear-gradient(
 		rgba(0, 0, 0, 0.25) 0%,
 		rgba(0, 0, 0, 0.25) 100%),
@@ -848,9 +848,9 @@ footer a{
 	}
 
 	header {
-		max-height: 88px;
-		height: initial;
-		padding: 0%;
+		max-height: 92px;
+		height: auto;
+		padding: 2rem 1rem;
 	}
 
 	.logo-container {
@@ -878,15 +878,15 @@ footer a{
 	}
 
 	.logo {
-		width: 145px;
+		width: 160px;
 	}
 
 	.cart {
-		width: 58px;
+		width: 70px;
 	}
 
 	.hero-image-banner {
-		margin-top: 87px;
+		margin-top: 85px;
 	}
 
 	.collection {
@@ -1109,16 +1109,26 @@ footer a{
 @media all and (min-width: 1240px) {
 
 	header {
-		padding: 1.2% 8%;
+		padding: 4rem 3rem;
 	}
 
 	.logo {
+		height: 65px;
 		width: 160px;
 	}
 
 	.cart {
+		height: 65px;
 		width: 65px;
 
+	}
+
+	.nav-list {
+		font-size: 1.25rem;
+	}
+
+	.nav-list li {
+		margin: 0 1.5rem;
 	}
 
 	.hero-image-banner {
