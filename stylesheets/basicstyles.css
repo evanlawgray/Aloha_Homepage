@@ -634,10 +634,6 @@ p.prices {
 	height: 250px;
 	padding: 4.15rem 0;
 	color: white;
-	background: -webkit-linear-gradient(
-			rgba(0, 0, 0, 0.17) 0%,
-			rgba(0, 0, 0, 0.17) 100%),
-			url("../assets/images/wave-bkgd.jpg") no-repeat center bottom;
 	background: linear-gradient(
 			rgba(0, 0, 0, 0.17) 0%,
 			rgba(0, 0, 0, 0.17) 100%),
@@ -680,12 +676,12 @@ p.prices {
 
 .sign-up-content p {
 	width: 100%;
-    margin: 0 auto;
-    font-size: 1.3rem;
-    text-align: center;
-    line-height: 2.5rem;
-    position: relative;
-    top: 18px;
+  margin: 0 auto;
+  font-size: 1.3rem;
+  text-align: center;
+  line-height: 2.5rem;
+  position: relative;
+  top: 18px;
 }
 
 .sign-up-form {
@@ -1000,21 +996,23 @@ footer a{
 	}
 
 	.sign-up-background {
+		padding: 5rem 0 4rem;
 		background-position: center bottom;
 	}
 
 	.sign-up-background h2 {
 		margin: 0;
 		position: relative;
+		top: 8%;
 	}
 
 	.sign-up-background p {
 		max-width: 760px;
 		margin: 0 auto;
-		padding-bottom: 3rem;
+		padding-bottom: 1rem;
 		font-size: 1.5rem;
 		position: relative;
-		top: 25%;
+		top: 24%;
 	}
 
 	.sign-up-form {
@@ -1186,7 +1184,9 @@ footer a{
 
 	.sign-up-background {
 		padding: 6.5rem 0 5rem;
+		background-size: cover;
 	}
+
 	.sign-up-background h2 {
 		top: 3rem;
 	}
