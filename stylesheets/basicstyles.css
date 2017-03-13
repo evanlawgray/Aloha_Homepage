@@ -553,6 +553,8 @@ header {
 
 .shop-container {
 	height: 70vh;
+	width: 90%;
+	margin: 0 auto;
 	min-height: 570px;
 	text-align: center;
     display: -webkit-box;
@@ -566,6 +568,10 @@ header {
         justify-content: space-around;
     padding-top: 5rem;
     padding-bottom: 4rem;
+}
+
+.shop-container h2 {
+	margin-bottom: 6rem;
 }
 
 #shop[tabindex="-1"]:focus {
@@ -609,7 +615,7 @@ header {
 
 }
 .product-list-item img{
-	max-width: 320px;
+	max-width: 300px;
 }
 
 .product-list p {
@@ -723,7 +729,6 @@ input[type="submit"] {
 
 footer {
 	height: auto;
-	width: 100%;
 	padding-top: 4rem;
   padding-bottom: 2rem;
   margin-top: 8px;
@@ -1188,14 +1193,13 @@ footer a{
 	}
 
 	.sign-up-background h2 {
-		top: 3rem;
+		top: 1.5rem;
 	}
 
 	.sign-up-background p {
-		max-width: 705px;
+		max-width: 750px;
 		margin: 1% auto;
-		font-size: 1.4rem;
-		top: 4.5rem;
+		font-size: 1.45rem;
 	}
 
 	footer {
